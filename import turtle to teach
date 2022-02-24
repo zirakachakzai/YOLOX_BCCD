@@ -1,0 +1,34 @@
+import turtle
+
+t = turtle.Turtle()
+
+t.forward(6)
+t.left(90)
+
+for i in range(50):
+  t.forward(6)
+  t.left(90)
+
+t.speed(10)
+t.color("red") # or t.color ("x,x,x")
+
+import random
+
+r = random.randint(0,255)
+g = random.randint(0,255)
+b = random.randint(0,255)
+t.color(r,g,b)
+
+for i in range(100):
+
+  r = random.randint(0,255)
+  g = random.randint(0,255)
+  b = random.randint(0,255)
+  t.color(r,g,b)
+    
+  for i in range(50):
+    t.forward(6)
+    t.left(123)
+  
+
+  t.goto(x,y)
